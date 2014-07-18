@@ -1,0 +1,117 @@
+#swimbi {
+	padding: 22px 0px 0 0px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 9999;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	left: 0px;
+}
+#swimbi a{
+	font-family: Verdana, Geneva, sans-serif !important;
+}
+#swimbi ul{
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAZCAYAAADwkER/AAAARUlEQVQIW2NkcCj/z8hgXwoj7IqBLDBhWwgjbPKBLDBhnQsjrLKBLDBhmQkjLNKBLDBhngojzJKBLDBhkggjjOOBLCABAASxKQgA4MDRAAAAAElFTkSuQmCC);
+	min-width: 561px;
+	padding: 0 0 0 0;
+	margin: 0;
+	width: 100%;
+	text-align: none;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	border-radius: 0px;
+	box-shadow: 0px 2px 2px  0px rgba(0,0,0,0.65);
+}
+#swimbi ul li {
+	display: inline-block;
+	position: relative;
+}
+#swimbi ul li:hover {
+	background: #0098BA;
+}
+#swimbi ul li:hover > ul {
+	display: block;
+}
+#swimbi ul li:hover > a{
+	color: #ffff00;
+	position: relative;
+	z-index: 1;
+	background: #0098BA;
+}
+#swimbi ul li:hover > a:only-child{ box-shadow:none; }
+#swimbi ul li a {
+	display: block;
+	padding: 0px 18px;
+	line-height: 25px;
+	height: 25px;
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: -1px;	white-space: nowrap;
+	text-shadow: -1px -1px 0px rgba(26,51,76,0.92);
+}
+#swimbi ul ul {
+	display: none;
+	background: #003867;
+	border-radius: 2px;
+	width: auto;
+	min-width: 160px;
+	padding: 0px 1px 2px 1px;
+	margin: 0;
+	position: absolute;
+	margin-top: 0;
+	box-shadow: 0px 0px 0px  0px rgba(85,85,85,0.0);
+	top: 23px;
+}
+#swimbi ul ul li {
+	float: none;
+	position: relative;
+	width: 100%;
+	text-align: left;
+	border-bottom: 1px solid #999;
+}
+#swimbi ul ul li a {
+	padding: 0px 20px;
+	padding-right: 26px;
+	line-height: 25px;
+	height: 25px;
+	color: #ffffff !important;
+	margin: 0;
+	text-shadow: 1px 1px 1px rgba(26,51,76,0.78);
+}
+#swimbi ul ul li:hover >a{
+	border-radius: 0px;
+	color: #ffff00 !important;
+	box-shadow: none;
+}
+#swimbi ul ul li a:hover {
+	border-radius: 0px;
+	background: #0098BA;
+}
+#swimbi canvas{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+}
+canvas noscript{
+	display: none;
+}
+#swimbi ul ul ul {
+	position: absolute;
+	z-index: 9;
+	left: 100%;
+	top: 0;
+}
+#ie_message{
+	display:none;
+}
+@media screen and (min-width:0\0){
+#ie_message{
+	display: block;
+	margin-top: 10px;
+	background: #ecc;
+}
+}
