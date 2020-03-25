@@ -1,1 +1,4 @@
-test isi dari ini untuk github
+Setelah berhasil di commit, maka insert change dilakukan untuk
+test isi dari ini untuk github 
+ama muncul
+perbedaan
